@@ -4,7 +4,8 @@ This swebsite serves as my digital resume, detailing all of my work experience, 
 You can easily view my interests and hobbies within the Computer Science space from this GitHub Profile / Website.
 - Seneca College School of Arts & Technology: Computer Programming (Dec. 2020)
 - CompTIA: Security+ (June 2023)
-- IT Professional - :RESOLVER Inc.
+- IT Security Analyst... (searching).
+- Application Support Analyst - :RESOLVER Inc.
 
 
 
