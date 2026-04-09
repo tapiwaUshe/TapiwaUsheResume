@@ -1,232 +1,1032 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tapiwa Z. Ushe</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/css/main.css">
-        <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/favicon-16x16.png">
-        <link rel="manifest" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-    </head>
-    <body class="dark-mode" id="light-mode">
-        <div id="container--main">
-            <section id="wrapper--hero" class="section--page">
-                <img id="profile-pic" src="assets/images/MeBee.jpeg">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Tapiwa Z. Ushe</title>
+<meta name="description" content="Tapiwa Z. Ushe — Senior IT & Application Support Engineer based in Calgary, AB">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
 
-                <div>
-                    <h1 id="user-name">Tapiwa Z. Ushe</h1>
-                    <p id="bio">IT Support Engineer, Sales Engineer, & FOSS Supporter for the <a href="https://en.opensuse.org/openSUSE:Junior_jobs" target="_blank">OpenSuSE</a>, Community.</p>
-                    <p id="email">📧 tzu@tapiwaushe.com | 📲 (647)527-2892 [  <button onclick="darkMode()">☀️</button> | <button onclick="darkMode()">🌒</button>]</p>
-                </div>  
-            </section>
+<!-- Favicons from existing repo -->
+<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/TZUB_11eeb6c6e44675799b5b49c424b1448c.ico/favicon-16x16.png">
+<meta name="theme-color" content="#0d1117">
 
-            <section class="section--page">
-                <div id="socials--list">
-                    <a href="#" target="_blank">YouTube (Coming Soon)</a>
-                    <a href="https://twitter.com/tapiwaushe" target="_blank">Twitter</a>
-                    <a href="https://www.linkedin.com/in/tapiwaushe" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/tapiwaushe" target="_blank">GitHub</a>
-                    <a href="assets/TUResume_24.pdf" target="_blank">Download Resume</a>
-                </div>
-            </section>
+<style>
+  /* =========================================================
+     TOKENS & RESET
+  ========================================================= */
+  :root {
+    --bg:           #0d1117;
+    --bg-card:      #161b22;
+    --bg-card-hover:#1c2330;
+    --border:       #30363d;
+    --border-subtle:#21262d;
+    --accent:       #58a6ff;
+    --accent-dim:   rgba(88,166,255,0.12);
+    --accent-mid:   rgba(88,166,255,0.25);
+    --green:        #3fb950;
+    --green-dim:    rgba(63,185,80,0.12);
+    --green-border: rgba(63,185,80,0.3);
+    --text:         #e6edf3;
+    --text-muted:   #8b949e;
+    --text-faint:   #484f58;
+    --radius:       10px;
+    --radius-sm:    6px;
+  }
 
-            <section id="work-history-wrapper" class="section--page">
-                <h2>Work History</h2>
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <strong>🚧 Application Support Business Systems Analyst | Sovereign Insurance </strong>
-                    <p>07/2024 - Present (Contract)</p>
-                    <p>Analyzed business requirements and implemented system optimizations, enhancing overall business development and efficiency.</p>
-                    <ul>
-                        <li>Provided second-level support for troubleshooting and resolving GuideWire product issues, ensuring compliance with SLA standards</li>
-                        <li>Maintained and managed the Legacy AS400 system database, ensuring data integrity and operational continuity.</li>
-                        <li>Communicated critical issues and actionable insights to executives and management, facilitating informed decision-making.</li>
-                        <li>Administered the integration of Atlassian Confluence, successfully migrating and centralizing documentation to improve accessibility and organization</li>
-                        <li>Led a project to integrate JIRA with ServiceNow, establishing a JIRA database and optimizing queries using JQL for enhanced automation</li>
-                        <li>Collaborated with finance, technology, and accounting departments to gather system requirements, streamline business processes, and ensure cross-functional alignment</li>
-                        <li>Improved training manuals, documentation, and support processes by working closely with management to restructure the knowledge base, resulting in more effective training and support</li>
-                        <li>Reduced operational redundancies and improved SLA response times by 15%, contributing to higher service efficiency</li>
-                        <li>Designed and managed comprehensive reports to monitor project progress and performance metrics, ensuring alignment with business objectives</li>
-                    </ul>
-                </div>
-                <div class="card--work-history">
-                    <strong>🚧 Technical Support Engineer | Instacart </strong>
-                    <p>09/2023 - 03/2024 (Contract)</p>
-                    <p>Provided 2nd level remote support to enterprise clients, reviewing old and submitting new documentation, finding and escalating bugs in the software.</p>
-                    <ul>    
-                        <li>Provided 2nd level technical support in resolving problems (troubleshooting, incident response, bug triaging and fixing) and supporting execution plans for systems/application upgrades, patches and bug fixes.</li>
-                        <li>Ran queries against our database with PostgreSQL syntax, CRUD operations to make changes to our clients data.</li>
-                        <li>Automated tasks on the Cloud via Kubernetes cron job’s, ensuring tasks such as chain sync’s are performed on a scheduled basis </li>
-                        <li>Worked with Technical Account Managers, CSMs, and various Engineering teams, to react to critical support tickets in which multiple departments may be required </li>
-                        <li>Leveraged JIRA to create, track, escalate and resolve tickets for our enterprise clients as well as create and update documentation</li>
-                        <li>Drafted new documentation where knowledge gaps were present, updated existing docs, and provided feedback to docs and training strategies</li>
-                        <li>Python scripting to automate tasks such as ingesting files and new data, caching, perform config updates, and export data </li>
-                    </ul>
-                </div>
-                
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <strong>🚧 Enterprise Application Support Engineer | Town of Orangeville </strong>
-                    <p>07/2023 - 09/2024 (Contract)</p>
-                    <p>Provided 2nd level support to end-users any software or hardware issues. Managed HRIS integration project(s) and maintained Linux DB.</p>
-                    <ul>    
-                        <li>Oversaw the development of the application architecture project management, implementing enterprise architecture frameworks (TOGAF) which reduces redundancy, complexity and information silos and business risks associated with the Town’s investments.</li>
-                        <li>Provided 2nd level support of enterprise applications and interfaces such as Microsoft Dynamics GP, FMW, Dayforce, CityWorks, Perfect Mind, GHD Web services, and APIs through prioritizing, triaging, and resolving requests within their SLA.</li>
-                        <li>Provided support in resolving problems (troubleshooting, incident response, bug triaging and fixing) and supporting execution plans for systems/application upgrades, patches and bug fixes</li>
-                        <li>Developed and maintained required system and database upgrade documentation and other IT knowledgebases (ServiceNow, ITGlue knowledge base)</li>
-                        <li>Validate requirements for changes to existing and new business information systems and assist with development of user acceptance testing and delivery of end user training</li>
-                        <li>Co-ordinate tasks and other work items with multiple parties on some projects </li>
-                    </ul>
-                </div>
-                
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <strong>🚧 Application Support Analyst | :RESOLVER Inc. </strong>
-                    <p>01/2022 - 04/2023 </p>
-                    <p>Provided remote support to end-users for software specific issues or administrative tasks, meeting SLA policy
-                        standards.</p>
-                    <ul>
-                        <li>Utilized ZenDesk and JIRA to troubleshoot and escalate end-user issues, detail bugs and QE updates</li>
-                        <li>Detailed updates with the Learning Teams for documentation in Confluence by creating and formatting specific articles for the Support team. </li>
-                        <li>Managed new regulatory content for customers such as Meta, NFL, Kraken, and JP Morgan and ensured abidance by keeping all standards updated for
-                            Governance, Risk and Compliance (GRC) such as ISO72001, GDPR, NIST, SOC2, PCI, and more.</li>
-                        <li>Assisted in answering technical questions, RFPs and RFIs with Sales teams to provide further insight on
-the SaaS/Cloud environment software</li>
-                        <li>Collaboration with the support team, and across departments such as Finances, Sales, DevOps, QE, & Product
-                            Development teams to coordinate new feature releases</li>
-                        <li>Managed customer data through AWS, using monitoring resources and applications, such as Amazon CloudWatch, AWS X-Ray, and AWS Cloudtrail </li>
-                        <li>Demonstrated ability to adhere to strict company security protocol and procedure. Met ISO27018 standards to
-                            protect customer data.</li>
-                        <li>Developed and ran SQL and Powershell scripts for retrieving, or purging mass amounts of customer data</li>
-                        <li>Executed Powershell commands for basic Active Directory management and automation</li>
-                        <li>Supported clients in many industries worldwide including Healthcare, IT, Corporate Security, Incident & Risk Management, Banking and Government bodies</li>
-                        <li>Leveraged API calls to troubleshoot issues pertaining to App Security and availability, SSO, MFA, IP authorization & application functionality</li>
+  [data-theme="light"] {
+    --bg:           #f6f8fa;
+    --bg-card:      #ffffff;
+    --bg-card-hover:#f0f3f6;
+    --border:       #d0d7de;
+    --border-subtle:#e1e7ec;
+    --accent:       #0969da;
+    --accent-dim:   rgba(9,105,218,0.08);
+    --accent-mid:   rgba(9,105,218,0.2);
+    --green:        #1a7f37;
+    --green-dim:    rgba(26,127,55,0.1);
+    --green-border: rgba(26,127,55,0.3);
+    --text:         #1f2328;
+    --text-muted:   #636c76;
+    --text-faint:   #b0b7bf;
+  }
 
-                    </ul>
-                </div>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <strong>🚧 Systems Support Analyst | BROKERLINK</strong>
-                    <p>05/2021 - 11/2021</p>
-                    <p>Provided remote support to employees, creating and documenting tickets via email, chat, and telephone.</p>
-                    <ul>
-                        <li>Documenting new operating procedures, and providing feedback to new and working operational procedure</li>
-                        <li>Trained staff on newly acquired computer and A/V equipment during initial hardware implementations</li>
-                        <li>Exercised systems admin responsibility with facility in access control for end-users on the network</li>
-                        <li>Integrated dozens of new companies (JW Davis, Kuhn & Assoc.) through mergers and acquisitions, handling onboarding batch requests</li>
-                        <li>Updated front-end of the company website with new features for employee notifications</li>
-                        <li>Collaboration with senior analysts, business analysts, and managers for new IT projects and brokerage
-                            acquisitions.</li>
-                        <li>Developed front-end of the company website (HTML & CSS) with new features for employee notifications</li>
-                        <li>Leveraged Citrix to work in a hosted environment, providing troubleshooting within a virtualized network</li>
-                    </ul>
-Tapiwa Z. Ushe
+  html { scroll-behavior: smooth; }
 
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 15px;
+    transition: background 0.3s, color 0.3s;
+  }
 
-                </div>
+  /* =========================================================
+     LAYOUT
+  ========================================================= */
+  #container--main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
 
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <strong>🚧 Technical Support Consultant | Rogers Communications Inc.</strong>
-                    <p>01/2020- 01/2021</p>
-                    <p>Achieved sales targets for hardware and service packages by up-selling, warm-calling, and cold-calling customers, while providing support when needed </p>
-                    <ul>
-                        <li>Provided remote support to customers, communicated desktop technical support cases through inbound phone
-                        calls.</li>
-                        <li>Ensured compliance with established internal control procedures by examining records, reports, operating
-                            practices, and documentation.</li>
-                        <li>Preparing reference material for technicians by running diagnostics and gathering performance analytics on
-                            networks using internal tools.</li>
-                        <li>Improved existing programs by evaluating objectives and specifications, reviewing proposed changes and providing
-                            recommendations</li>
-                        <li>Escalated any issues that cannot be resolved over the phone to scheduled service calls where visits are made to
-                            client facilities to assess and correct problems in person.</li>
-                    </ul>
-                </div>
+  .section--page {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .section--page:last-child { border-bottom: none; }
 
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <strong>🚧 Jr. Technician/Dispatcher | Mission Control NOC & HelpDesk Services</strong>
-                    <p>05/2019 - 10/2020</p>
-                    <p>Provided desktop and remote support to over 100 employees in a Windows 7/10 environment.</p>
-                    <ul>
-                        <li>Initiated calls with stakeholders regarding multiple hardware and software projects.</li>
-                        <li>Utilized Google suite to create system documentation, project plans, test scripts and education materials for future employees</li>
-                        <li>Suggested process improvements to IT Support Supervisor in areas that positively impacted business and the level of support</li>
-                    </ul>
-                </div>
-            </section>
+  /* =========================================================
+     HERO
+  ========================================================= */
+  #wrapper--hero {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding-top: 52px;
+    border-bottom: none;
+  }
 
-            <section class="section--page">
-                <h2>Education</h2>
-                <ul id="qualifications--list">
-                    <li>🛡️ Blockchain Council — Certified Blockchain Expert
-                        Certification, Blockchain Technology — June. 2024
-                    </li>
-                    <li>🏫 SENECA POLYTECHNIC, School of Software Design & Data Science — Toronto, ON
-                        Dipl. Computer Programming – December 2020
-                    </li>
-                </ul>
-            </section>
-            
-            <section class="section--page">
-                <h2>Skills & Qualifications</h2>
-                <ul id="qualifications--list">
-                    <li>✔️ 3.5+ Years experience working in an IT support environment</li>
-                    <li>✔️ Educated in programming, networking, computer hardware and IT security.</li>
-                    <li>✔️ Projects including homelab server management, hydroponics & IoT, and creating Linux video logging content</li>
-                    <li>✔️ Met sales goals and partcipated in technical demonstrations for software sales. </li>
-                    <li>✔️ Knowledgeable in GRC policy analysis and content management.</li>
-                    <li>✔️ Supported clients from a wide range of industries, including financial services, medical services, IT & Media servies and industrial companies</li>
-                    <li>✔️ Extensive knowledge of PreSales/Sales strategies and methodologies, demoing and supporting SaaS products, with experience cold-warm calling potential customers</li>
-                </ul>
-            </section>
+  #profile-pic {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid var(--border);
+    flex-shrink: 0;
+    box-shadow: 0 0 0 6px var(--accent-dim);
+  }
 
-            <section class="section--page">
-                <h2>Tech Stack</h2>
-                <div id="wrapper--techstack__items">
-                    <div class="card--techstack"><span>Linux: Ubuntu/Debian, RHEL, Arch, Windows 10/11, Mac OS</span></div>
-                    <div class="card--techstack"><span>C, C++, C#, Java, SQL</span></div>
-                    <div class="card--techstack"><span>Python, JavaScript, NodeJS</span></div>
-                    <div class="card--techstack"><span>Express, PostGres, MongoDB</span></div>
-                    <div class="card--techstack"><span>BASH, Perl, Rust</span></div>
-                </div>
-            </section>
+  .hero--text h1 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
 
-            <section class="section--page">
-                <h2>Projects & Accomplishments</h2>
-                <div class="card--project">
-                    <a href="https://tech.tapiwaushe.com"><span>🏆 </span>Portfolio Website - Detailing all of my projects</a>
-                </div>
-                <div class="card--project">
-                    <a href="https://decentraphile.xyz" ><span>🏆 </span>Decentraphile - Blockchain onboarding project to educate non-techies on future technology.</a>
-                </div>
-                <div class="card--project">
-                    <a href="https://decentralice.win" ><span>🏆 </span>Metaverse Poker HQ - DG ICE Poker, sponsored by a team of two.</a>
-                </div>
-                <div class="card--project">
-                    <a href="https://en.opensuse.org/openSUSE:Junior_jobs"><span>🏆 </span>FOSS Community Supporter for OpenSuSE</a>
-                </div>
-            </section>
+  .hero--text p {
+    color: var(--text-muted);
+    margin-top: 6px;
+    font-size: 0.93rem;
+  }
+
+  .hero--text a { color: var(--accent); text-decoration: none; }
+  .hero--text a:hover { text-decoration: underline; }
+
+  .hero--contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    margin-top: 10px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    align-items: center;
+  }
+
+  .hero--contact span { display: flex; align-items: center; gap: 4px; }
+
+  .theme-toggle {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 4px;
+  }
+  .theme-toggle:hover { background: var(--bg-card-hover); border-color: var(--accent); }
+
+  /* =========================================================
+     SOCIALS BAR
+  ========================================================= */
+  #socials--list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 20px 0 4px;
+  }
+
+  #socials--list a {
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    background: var(--bg-card);
+    transition: all 0.18s;
+    letter-spacing: 0.01em;
+  }
+
+  #socials--list a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: var(--accent-dim);
+  }
+
+  #socials--list a.download-btn {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  #socials--list a.download-btn:hover {
+    opacity: 0.85;
+    background: var(--accent);
+    color: #fff;
+  }
+
+  /* =========================================================
+     SECTION HEADERS
+  ========================================================= */
+  h2 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+  }
+
+  /* =========================================================
+     WORK HISTORY
+  ========================================================= */
+  .card--work-history {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    margin-bottom: 14px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .card--work-history:hover {
+    border-color: var(--accent);
+    background: var(--bg-card-hover);
+  }
+
+  .card--work-history strong {
+    display: block;
+    font-size: 0.93rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .card--work-history .job-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .job-badge {
+    background: var(--accent-dim);
+    color: var(--accent);
+    border: 1px solid var(--accent-mid);
+    border-radius: 4px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 1px 6px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .job-badge.current {
+    background: var(--green-dim);
+    color: var(--green);
+    border-color: var(--green-border);
+  }
+
+  .card--work-history .job-summary {
+    font-size: 0.84rem;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .card--work-history ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .card--work-history li {
+    font-size: 0.84rem;
+    color: var(--text-muted);
+    padding-left: 14px;
+    position: relative;
+    line-height: 1.55;
+  }
+
+  .card--work-history li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 0.7rem;
+    top: 2px;
+  }
+
+  /* =========================================================
+     EDUCATION
+  ========================================================= */
+  .edu-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    margin-bottom: 10px;
+  }
+
+  .edu-item .edu-school {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text);
+  }
+
+  .edu-item .edu-degree {
+    font-size: 0.84rem;
+    color: var(--accent);
+    margin: 2px 0;
+  }
+
+  .edu-item .edu-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  .edu-item .edu-detail {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  /* =========================================================
+     TECH STACK
+  ========================================================= */
+  #wrapper--techstack__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .card--techstack {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .card--techstack:hover {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+
+  /* =========================================================
+     SKILLS
+  ========================================================= */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+  }
+
+  .skill-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 8px 12px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .skill-item::before {
+    content: "✓";
+    color: var(--green);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* =========================================================
+     PROJECTS
+  ========================================================= */
+  .card--project {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .card--project:hover {
+    border-color: var(--accent);
+    background: var(--bg-card-hover);
+  }
+
+  .card--project a {
+    text-decoration: none;
+    font-size: 0.88rem;
+    color: var(--text);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card--project a:hover { color: var(--accent); }
+
+  /* =========================================================
+     HOMELAB CARD
+  ========================================================= */
+  .homelab-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    margin-bottom: 10px;
+  }
+
+  .homelab-card:hover {
+    border-color: var(--accent);
+    background: var(--bg-card-hover);
+  }
+
+  .homelab--header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .homelab--header h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+    flex: 1;
+  }
+
+  .homelab--status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--green);
+    background: var(--green-dim);
+    border: 1px solid var(--green-border);
+    border-radius: 20px;
+    padding: 2px 8px;
+  }
+
+  .homelab--status::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: blink 2s ease-in-out infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+  }
+
+  .homelab--desc {
+    font-size: 0.83rem;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .homelab--services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .svc-tile {
+    background: var(--bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+  }
+
+  .svc-tile .svc-top {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+
+  .svc-tile .svc-icon { font-size: 0.95rem; }
+
+  .svc-tile .svc-name {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .svc-tile .svc-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    line-height: 1.45;
+  }
+
+  .homelab--tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .tag {
+    font-size: 0.72rem;
+    font-weight: 500;
+    background: var(--accent-dim);
+    color: var(--accent);
+    border: 1px solid var(--accent-mid);
+    border-radius: 4px;
+    padding: 2px 7px;
+  }
+
+  /* =========================================================
+     ANIMATIONS
+  ========================================================= */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  #wrapper--hero   { animation: fadeUp 0.5s ease both; }
+  .section--page:nth-child(2) { animation: fadeUp 0.5s 0.08s ease both; }
+  .section--page:nth-child(3) { animation: fadeUp 0.5s 0.16s ease both; }
+  .section--page:nth-child(4) { animation: fadeUp 0.5s 0.24s ease both; }
+
+  /* =========================================================
+     RESPONSIVE
+  ========================================================= */
+  @media (max-width: 560px) {
+    #wrapper--hero { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .hero--text h1 { font-size: 1.7rem; }
+    #profile-pic { width: 88px; height: 88px; }
+  }
+
+  /* =========================================================
+     ROLE SWITCHER
+  ========================================================= */
+
+  /* CSS custom props per role — toggled by JS on <body> */
+  :root,
+  [data-theme="dark"]  { --role-color: #58a6ff; --role-dim: rgba(88,166,255,0.12); --role-mid: rgba(88,166,255,0.25); }
+  [data-theme="light"] { --role-color: #0969da; --role-dim: rgba(9,105,218,0.08);  --role-mid: rgba(9,105,218,0.20); }
+
+  /* override accent with role color everywhere it's used */
+  body[data-role="support"] { --accent: var(--role-color); --accent-dim: var(--role-dim); --accent-mid: var(--role-mid); }
+
+  body[data-role="sales"][data-theme="dark"]  { --accent:#f0883e; --accent-dim:rgba(240,136,62,0.12); --accent-mid:rgba(240,136,62,0.25); }
+  body[data-role="sales"][data-theme="light"] { --accent:#953800; --accent-dim:rgba(149,56,0,0.08);   --accent-mid:rgba(149,56,0,0.20); }
+
+  body[data-role="foss"][data-theme="dark"]   { --accent:#3fb950; --accent-dim:rgba(63,185,80,0.12); --accent-mid:rgba(63,185,80,0.25); }
+  body[data-role="foss"][data-theme="light"]  { --accent:#1a7f37; --accent-dim:rgba(26,127,55,0.08); --accent-mid:rgba(26,127,55,0.20); }
+
+  /* Role pill strip */
+  .role-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0;
+    margin-top: 8px;
+    font-size: 0.85rem;
+  }
+
+  .role-pill {
+    background: none;
+    border: none;
+    padding: 2px 0;
+    font-size: 0.85rem;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-weight: 500;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color 0.2s;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .role-pill::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0; right: 0;
+    height: 1.5px;
+    border-radius: 2px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.22s cubic-bezier(0.34,1.4,0.64,1), background 0.2s;
+  }
+
+  .role-pill.active {
+    color: var(--accent);
+  }
+  .role-pill.active::after {
+    transform: scaleX(1);
+  }
+
+  .role-pill:hover:not(.active) { color: var(--text); }
+
+  .role-sep {
+    color: var(--text-faint);
+    padding: 0 6px;
+    font-weight: 300;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  /* Context panel that animates in below the bio line */
+  #role-context {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1), opacity 0.25s ease;
+    margin-top: 0;
+  }
+
+  #role-context.visible {
+    max-height: 200px;
+    opacity: 1;
+    margin-top: 14px;
+  }
+
+  .role-context-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 8px;
+  }
+
+  .role-ctx-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-sm);
+    padding: 8px 12px;
+    transition: border-color 0.2s;
+  }
+
+  .role-ctx-card .ctx-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 3px;
+    transition: color 0.2s;
+  }
+
+  .role-ctx-card .ctx-value {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    line-height: 1.45;
+  }
+
+</style>
+</head>
+
+<body data-theme="dark" id="site-body">
+
+<div id="container--main">
+
+  <!-- ── HERO ── -->
+  <section id="wrapper--hero">
+    <img id="profile-pic" src="data:image/jpeg;base64,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" alt="Tapiwa Z. Ushe">
+    <div class="hero--text">
+      <h1>Tapiwa Z. Ushe</h1>
+
+      <!-- Role switcher pills -->
+      <div class="role-strip">
+        <button class="role-pill active" data-role="support">Support Engineer</button>
+        <span class="role-sep">|</span>
+        <button class="role-pill" data-role="sales">Sales Supp. Engineer</button>
+        <span class="role-sep">|</span>
+        <button class="role-pill" data-role="foss">FOSS Supporter</button>
+        <span class="role-sep">|</span>
+      </div>
+
+      <!-- Dynamic bio line, swaps per role -->
+      <p id="role-bio" style="color:var(--text-muted);margin-top:8px;font-size:0.9rem;min-height:1.4em;transition:opacity 0.2s;">Diagnosing complex application issues, writing RCAs, and keeping enterprise clients unblocked, ensuring 99% uptime.</p>
+
+      <!-- Animated context cards -->
+      <div id="role-context">
+        <div class="role-context-inner" id="role-context-inner"></div>
+      </div>
+
+      <div class="hero--contact" style="margin-top:12px;">
+        <span>📧 <a href="mailto:tzu@tapiwaushe.com">tzu@tapiwaushe.com</a></span>
+        <span>📲 (647) 527-2892</span>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+          <span id="theme-icon">☀️</span> Light
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SOCIALS ── -->
+  <section class="section--page">
+    <div id="socials--list">
+      <a href="#" target="_blank">YouTube (Coming Soon)</a>
+      <a href="https://twitter.com/tapiwaushe" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/in/tapiwaushe" target="_blank">LinkedIn</a>
+      <a href="https://github.com/tapiwaushe" target="_blank">GitHub</a>
+      <a href="assets/TZURes.docx" download="assets/TapiwaUshe_Resume.docx" class="download-btn">⬇ Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ── WORK HISTORY ── -->
+  <section id="work-history-wrapper" class="section--page">
+    <h2>Work History</h2>
+
+    <div class="card--work-history">
+      <strong>Senior Application Support Engineer · Paymentus</strong>
+      <div class="job-meta">
+        <span>Mar 2025 – Dec 2025 · Calgary, AB</span>
+        <span class="job-badge">Fintech SaaS</span>
+      </div>
+      <p class="job-summary">Advanced technical support for Paymentus' flagship fintech SaaS platform, diagnosing and resolving complex application issues for enterprise clients.</p>
+      <ul>
+        <li>Root cause analysis using SQL, Linux logs, and bash scripts; delivered solutions with minimal client disruption.</li>
+        <li>Managed support cases via Salesforce; coordinated with TAMs, developers, and security analysts for high-impact escalations.</li>
+        <li>Documented incidents in JIRA and contributed to post-incident reviews for continuous improvement.</li>
+        <li>Wrote and maintained internal bash scripts and automation tools to enhance support workflows.</li>
+        <li>Participated in after-hours on-call rotations for time-sensitive production issues.</li>
+      </ul>
+    </div>
+
+    <div class="card--work-history">
+      <strong>Applications Support Business Systems Analyst · Sovereign Insurance</strong>
+      <div class="job-meta">
+        <span>Jul 2024 – Mar 2025 · Calgary, AB</span>
+        <span class="job-badge">Contract</span>
+      </div>
+      <p class="job-summary">System optimizations and 2nd-level enterprise application support across GuideWire, AS400, and Atlassian tooling.</p>
+      <ul>
+        <li>Second-level support for GuideWire product issues; maintained Legacy AS400 database for operational continuity.</li>
+        <li>Led JIRA–ServiceNow integration project, establishing a JIRA database and optimizing queries using JQL.</li>
+        <li>Migrated and centralized documentation in Atlassian Confluence, improving accessibility across teams.</li>
+        <li>Reduced SLA response times by 15% through operational redundancy elimination and process restructuring.</li>
+      </ul>
+    </div>
+
+    <div class="card--work-history">
+      <strong>Technical Support Engineer · Instacart</strong>
+      <div class="job-meta">
+        <span>Aug 2023 – Mar 2024 · Calgary, AB</span>
+        <span class="job-badge">Contract</span>
+      </div>
+      <ul>
+        <li>2nd level technical support: troubleshooting, incident response, bug triaging, and production deployments.</li>
+        <li>PostgreSQL CRUD operations and RESTful API usage for client data management and system interoperability.</li>
+        <li>Cloud automation via Kubernetes for scheduled tasks (chain syncs, cron jobs).</li>
+        <li>Python scripting for task automation, data ingestion, caching, config updates, and data export.</li>
+        <li>Platform integration reduced load times 15% and improved reliability by 25%.</li>
+      </ul>
+    </div>
+
+    <div class="card--work-history">
+      <strong>Applications Support Analyst · RESOLVER Inc.</strong>
+      <div class="job-meta">
+        <span>Jan 2022 – Apr 2023 · Toronto, ON</span>
+        <span class="job-badge">GRC SaaS</span>
+      </div>
+      <ul>
+        <li>2nd level support for web-based applications (SSO, API, backend) for clients including Meta, NFL, Kraken, and JP Morgan.</li>
+        <li>GRC compliance management: ISO27001, GDPR, NIST, SOC2, PCI via RESTful API integrations.</li>
+        <li>PowerShell scripting for data retrieval, purging, and Active Directory management.</li>
+        <li>Customer data management via AWS (CloudWatch, X-Ray, CloudTrail); met ISO27018 standards.</li>
+      </ul>
+    </div>
+
+    <div class="card--work-history">
+      <strong>Systems Support Analyst · BROKERLINK Inc.</strong>
+      <div class="job-meta">
+        <span>May 2021 – Nov 2021 · Toronto, ON</span>
+        <span class="job-badge">Contract</span>
+      </div>
+      <ul>
+        <li>2nd level MS Exchange, SharePoint, and MS Office support; LDAP user access control and verification.</li>
+        <li>Integrated new insurance companies through M&amp;A; configured VLANs and permissions for secure file sharing.</li>
+        <li>Developed front-end website features (HTML &amp; CSS); leveraged Citrix and Azure for virtualized network support.</li>
+      </ul>
+    </div>
+
+    <div class="card--work-history">
+      <strong>Sales Technical Support · Rogers Communications Inc.</strong>
+      <div class="job-meta">
+        <span>Jan 2020 – Jan 2021 · Toronto, ON</span>
+        <span class="job-badge">Telcom Sales</span>
+      </div>
+      <ul>
+        <li>Surpassed sales targets through upselling networking equipment, IoT hardware, and services to warm/cold customers.</li>
+        <li>Managed remote inbound support cases; escalated unresolved issues to on-site service calls.</li>
+        <li>Assessed infrastructure compatibility for new software; evaluated programs and provided strategic recommendations.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section class="section--page">
+    <h2>Education</h2>
+
+    <div class="edu-item">
+      <div class="edu-school">Athabasca University — Faculty of Business</div>
+      <div class="edu-degree">Bachelor of Commerce (General)</div>
+      <div class="edu-meta">Calgary, AB · Expected May 2029 | <span class="job-badge">Bach.</span></div>
+      <div class="edu-detail">Core areas: marketing, statistics, finance, accounting, information systems, organizational behaviour, commercial law.</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-school">Seneca Polytechnic — School of Software Design &amp; Data Science</div>
+      <div class="edu-degree">Diploma, Computer Programming</div>
+      <div class="edu-meta">Toronto, ON · December 2020 | <span class="job-badge">Dipl.</span></div>
+      <div class="edu-detail">C/C++, C#, Java, Python, TypeScript/JS, Systems Analytics, IT Project Management, SQL, Web Design, AI.</div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="section--page">
+    <h2>Skills &amp; Qualifications</h2>
+    <div class="skills-grid">
+      <div class="skill-item">5+ years in IT support &amp; enterprise application environments</div>
+      <div class="skill-item">Programming, networking, hardware &amp; IT security</div>
+      <div class="skill-item">Homelab server management, IoT &amp; hydroponics projects</div>
+      <div class="skill-item">Sales goals &amp; technical product demonstrations</div>
+      <div class="skill-item">GRC policy analysis and content management</div>
+      <div class="skill-item">Pre-Sales/Sales strategies and SaaS product demos</div>
+      <div class="skill-item">Geospatial analysis: QGIS, ArcGIS, GeoPandas</div>
+      <div class="skill-item">3D Modeling &amp; AV: Blender, Unity, OBS, Adobe CC</div>
+    </div>
+  </section>
+
+  <!-- ── TECH STACK ── -->
+  <section class="section--page">
+    <h2>Tech Stack</h2>
+    <div id="wrapper--techstack__items">
+      <div class="card--techstack">Ubuntu · RHEL · Arch · Windows 10/11 · macOS</div>
+      <div class="card--techstack">C · C++ · C# · .NET · Java · Python</div>
+      <div class="card--techstack">HTML &amp; CSS · SCSS · JavaScript · TypeScript</div>
+      <div class="card--techstack">NodeJS · PostgreSQL · MongoDB · OracleSQL · DB2</div>
+      <div class="card--techstack">Azure · GCP · AWS · Docker · Kubernetes</div>
+      <div class="card--techstack">Bash · PowerShell · Perl · Ruby · Rust</div>
+      <div class="card--techstack">JIRA · Salesforce · ServiceNow · Confluence</div>
+      <div class="card--techstack">Datadog · Splunk · Papertrail · Dynatrace · Wireshark</div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="section--page">
+    <h2>Projects &amp; Accomplishments</h2>
+
+    <!-- Decentral Labs Homelab — featured card -->
+    <div class="homelab-card">
+      <div class="homelab--header">
+        <span style="font-size:1.25rem;">🖥️</span>
+        <h3>Decentral Labs — Self-Hosted Homelab</h3>
+        <span class="homelab--status">Active</span>
+      </div>
+
+      <p class="homelab--desc">
+        A personal homelab running TrueNAS Scale — a self-managed infrastructure stack for hosting services,
+        experimenting with decentralized technologies, and building a resilient home cloud.
+        Platform for learning enterprise-grade sysadmin, networking, and DevOps practices in a real environment.
+      </p>
+
+      <div class="homelab--services">
+        <div class="svc-tile">
+          <div class="svc-top"><span class="svc-icon">💾</span><span class="svc-name">TrueNAS Scale</span></div>
+          <div class="svc-desc">ZFS-backed NAS OS — storage pools, snapshots, and dataset replication.</div>
         </div>
-    <script src="js/addons.js"></script>
-    </body>
+        <div class="svc-tile">
+          <div class="svc-top"><span class="svc-icon">🐳</span><span class="svc-name">Docker / Apps</span></div>
+          <div class="svc-desc">Containerized services via TrueNAS app catalog and custom compose configs.</div>
+        </div>
+        <div class="svc-tile">
+          <div class="svc-top"><span class="svc-icon">🌐</span><span class="svc-name">Networking</span></div>
+          <div class="svc-desc">VLAN segmentation, DNS, Nginx reverse proxy, firewalls, and VPN tunneling.</div>
+        </div>
+        <div class="svc-tile">
+          <div class="svc-top"><span class="svc-icon">📊</span><span class="svc-name">Monitoring</span></div>
+          <div class="svc-desc">Health dashboards, alerting, and log aggregation for service uptime visibility.</div>
+        </div>
+        <div class="svc-tile">
+          <div class="svc-top"><span class="svc-icon">🔐</span><span class="svc-name">Security</span></div>
+          <div class="svc-desc">SSL/TLS certs, IAM, SSH hardening, and network-level access control policies.</div>
+        </div>
+        <div class="svc-tile">
+          <div class="svc-top"><span class="svc-icon">⛓️</span><span class="svc-name">Web3 / IPFS</span></div>
+          <div class="svc-desc">Decentralized app hosting, IPFS node pinning, and blockchain tooling experiments.</div>
+        </div>
+      </div>
+
+      <div class="homelab--tags">
+        <span class="tag">TrueNAS Scale</span>
+        <span class="tag">Local LLM</span>
+        <span class="tag">ZFS</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Nginx</span>
+        <span class="tag">GNU/Linux</span>
+        <span class="tag">VLAN</span>
+        <span class="tag">WireGuard</span>
+        <span class="tag">IPFS</span>
+        <span class="tag">Bash</span>
+        <span class="tag">SSL/TLS</span>
+        <span class="tag">IAM</span>
+      </div>
+    </div>
+
+    <div class="card--project">
+      <a href="https://en.opensuse.org/openSUSE:Junior_jobs" target="_blank"><span>🏆</span> FOSS Community Supporter for OpenSuSE</a>
+    </div>
+  </section>
+</div>
+
+<script>
+  /* ── THEME TOGGLE ─────────────────────────── */
+  function toggleTheme() {
+    const body = document.getElementById('site-body');
+    const icon = document.getElementById('theme-icon');
+    const btn  = document.querySelector('.theme-toggle');
+    const txtNode = btn.childNodes[btn.childNodes.length - 1];
+    if (body.dataset.theme === 'dark') {
+      body.dataset.theme = 'light';
+      icon.textContent = '🌒';
+      txtNode.textContent = ' Dark';
+    } else {
+      body.dataset.theme = 'dark';
+      icon.textContent = '☀️';
+      txtNode.textContent = ' Light';
+    }
+  }
+
+  /* ── ROLE SWITCHER ────────────────────────── */
+  const ROLES = {
+    support: {
+      bio: 'Diagnosing complex application issues, writing RCAs, and keeping enterprise clients unblocked.',
+      cards: [
+        { label: 'Core Stack',  value: 'SQL · Linux · Bash · Salesforce · JIRA · Datadog' },
+        { label: 'Highlight',   value: '15% SLA improvement @ Sovereign Insurance' },
+        { label: 'Speciality',  value: 'GuideWire · AS400 · Kubernetes · PostgreSQL' },
+        { label: 'Currently',   value: 'Looking to join your team!' },
+        { label: 'Goals',   value: 'To provide technical and business expertise to your SaaS team.' },
+        { label: 'Future',   value: 'Leading and guiding teams, enabling and facilitating growth.' }
+      ]
+    },
+    sales: {
+      bio: 'Demoing SaaS products, answering RFPs & RFIs, and translating technical complexity into business value.',
+      cards: [
+        { label: 'Experience',  value: 'Pre-Sales at Resolver Inc. · Rogers Comms.' },
+        { label: 'Highlight',   value: 'Surpassed upsell targets for IoT & networking hardware' },
+        { label: 'Skills',      value: 'Cold/warm calling · RFP/RFI responses · SaaS demos' },
+        { label: 'Industries',  value: 'Fintech · Insurance · Telecom · GRC / Compliance' },
+        { label: 'Achievements',   value: 'Surpassed sales goals for telcom, and enabled engineers to close software deals'},
+        { label: 'Goals',   value: 'To provide an excellent, streamlined sales experience for our customers. ' },
+        { label: 'Future',   value: 'Leading and guiding teams, enabling and facilitating growth.' }
+      ]
+    },
+    foss: {
+      bio: 'Contributing to open-source infrastructure and running a self-hosted homelab on TrueNAS Scale.',
+      cards: [
+        { label: 'Community',   value: 'OpenSuSE Junior Jobs contributor' },
+        { label: 'Homelab',     value: 'TrueNAS Scale · Docker · WireGuard · IPFS · ZFS' },
+        { label: 'Philosophy',  value: 'User freedom, open standards, decentralized tech' },
+        { label: 'Projects',    value: 'Decentral Labs · Decentraphile · Metaverse Poker HQ' },
+        { label: 'Goals',    value: 'Continue to learn and teach users about the OpenSuSE distribution' },
+        { label: 'Future',    value: 'Provide developmental support for the OpenSuSE Linux Foundation' },
+      ]
+    }
+  };
+
+  let currentRole = 'support';
+
+  function setRole(role) {
+    if (role === currentRole) return;
+    currentRole = role;
+
+    const body    = document.getElementById('site-body');
+    const bio     = document.getElementById('role-bio');
+    const ctx     = document.getElementById('role-context');
+    const inner   = document.getElementById('role-context-inner');
+    const pills   = document.querySelectorAll('.role-pill');
+
+    /* swap body data-role → triggers CSS variable cascade */
+    body.dataset.role = role;
+
+    /* update active pill */
+    pills.forEach(p => p.classList.toggle('active', p.dataset.role === role));
+
+    /* fade bio */
+    bio.style.opacity = '0';
+    setTimeout(() => {
+      bio.textContent = ROLES[role].bio;
+      bio.style.opacity = '1';
+    }, 150);
+
+    /* rebuild context cards */
+    inner.innerHTML = ROLES[role].cards.map(c =>
+      `<div class="role-ctx-card">
+        <div class="ctx-label">${c.label}</div>
+        <div class="ctx-value">${c.value}</div>
+      </div>`
+    ).join('');
+
+    /* slide context panel open */
+    ctx.classList.add('visible');
+  }
+
+  /* wire up pill buttons */
+  document.querySelectorAll('.role-pill').forEach(btn => {
+    btn.addEventListener('click', () => setRole(btn.dataset.role));
+  });
+
+  /* init on load */
+  document.getElementById('site-body').dataset.role = 'support';
+  setRole('support');
+  /* trigger panel open after paint */
+  requestAnimationFrame(() =>
+    requestAnimationFrame(() =>
+      document.getElementById('role-context').classList.add('visible')
+    )
+  );
+</script>
+</body>
 </html>
