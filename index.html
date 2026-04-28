@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Tapiwa Z. Ushe</title>
-<meta name="description" content="Tapiwa Z. Ushe — Senior IT & Application Support Engineer based in Calgary, AB">
+<meta name="description" content="Tapiwa Z. Ushe — Senior IT & Dev. Support Engineer based in Calgary, AB">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -684,7 +684,7 @@
       </div>
 
       <!-- Dynamic bio line, swaps per role -->
-      <p id="role-bio" style="color:var(--text-muted);margin-top:8px;font-size:0.9rem;min-height:1.4em;transition:opacity 0.2s;">Diagnosing complex application issues, writing RCAs, and keeping enterprise clients unblocked, ensuring 99% uptime.</p>
+      <p id="role-bio" style="color:var(--text-muted);margin-top:8px;font-size:0.9rem;min-height:1.4em;transition:opacity 0.2s;">Diagnosing complex application issues, writing RCAs, and keeping enterprise clients unblocked.</p>
 
       <!-- Animated context cards -->
       <div id="role-context">
@@ -708,7 +708,7 @@
       <a href="https://twitter.com/tapiwaushe" target="_blank">Twitter</a>
       <a href="https://www.linkedin.com/in/tapiwaushe" target="_blank">LinkedIn</a>
       <a href="https://github.com/tapiwaushe" target="_blank">GitHub</a>
-      <a href="TZURes.docx" download="TZURes.docx" class="download-btn">⬇ Download Resume</a>
+      <a href="assets/TZURes.docx" download="TapiwaUshe_Resume.docx" class="download-btn">⬇ Download Resume</a>
     </div>
   </section>
 
@@ -717,6 +717,24 @@
     <h2>Work History</h2>
 
     <div class="card--work-history">
+      <strong>Software Engineering Specialist · Veritext Legal Solutions</strong>
+      <div class="job-meta">
+        <span>2026 &ndash; Present &middot; Calgary, AB (Remote)</span>
+        <span class="job-badge current">Current</span>
+        <span class="job-badge">LegalTech SaaS</span>
+      </div>
+      <p class="job-summary">Supporting the reliability and stability of Veritext's enterprise legal technology platform — a suite of court reporting, deposition management, transcript delivery, and AI-powered litigation tools serving law firms, corporations, and government clients across North America.</p>
+      <ul>
+        <li>Resolve L2 developer and application support tickets across Veritext's SaaS platform, conducting root cause analysis (RCA) and delivering documented post-mortems for recurring and high-severity incidents.</li>
+        <li>Monitor platform health and service reliability using observability tooling; proactively identify degradation patterns and coordinate with engineering on preventive remediation.</li>
+        <li>Triage, reproduce, and escalate production bugs with detailed reproduction steps, environment context, and log evidence to accelerate developer resolution cycles.</li>
+        <li>Contribute to site reliability engineering (SRE) practices — including runbook authoring, alert tuning, and on-call rotation coverage for time-sensitive production issues.</li>
+        <li>Interface directly with enterprise clients (law firms, corporate legal teams) to manage support cases end-to-end, ensuring SLA adherence and clear technical communication throughout.</li>
+        <li>Maintain internal tooling and automation scripts to streamline support workflows and reduce manual intervention in common operational tasks.</li>
+      </ul>
+    </div>
+
+        <div class="card--work-history">
       <strong>Senior Application Support Engineer · Paymentus</strong>
       <div class="job-meta">
         <span>Mar 2025 – Dec 2025 · Calgary, AB</span>
@@ -861,7 +879,7 @@
     <div class="homelab-card">
       <div class="homelab--header">
         <span style="font-size:1.25rem;">🖥️</span>
-        <h3>Decentral Labs — Self-Hosted Homelab</h3>
+        <h3><a href="https://decentlabs.ca" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--accent);">Decentral Labs</a> — Self-Hosted Homelab</h3>
         <span class="homelab--status">Active</span>
       </div>
 
@@ -920,7 +938,7 @@
   </section>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   /* ── THEME TOGGLE ─────────────────────────── */
   function toggleTheme() {
     const body = document.getElementById('site-body');
@@ -929,11 +947,11 @@
     const txtNode = btn.childNodes[btn.childNodes.length - 1];
     if (body.dataset.theme === 'dark') {
       body.dataset.theme = 'light';
-      icon.textContent = '🌒';
+      icon.textContent = '\u{1F31C}';
       txtNode.textContent = ' Dark';
     } else {
       body.dataset.theme = 'dark';
-      icon.textContent = '☀️';
+      icon.textContent = '\u{2600}\uFE0F';
       txtNode.textContent = ' Light';
     }
   }
@@ -946,9 +964,7 @@
         { label: 'Core Stack',  value: 'SQL · Linux · Bash · Salesforce · JIRA · Datadog' },
         { label: 'Highlight',   value: '15% SLA improvement @ Sovereign Insurance' },
         { label: 'Speciality',  value: 'GuideWire · AS400 · Kubernetes · PostgreSQL' },
-        { label: 'Currently',   value: 'Looking to join your team!' },
-        { label: 'Goals',   value: 'To provide technical and business expertise to your SaaS team.' },
-        { label: 'Future',   value: 'Leading and guiding teams, enabling and facilitating growth.' }
+        { label: 'Currently',   value: 'Software Engineering Specialist @ Veritext (2026)' },
       ]
     },
     sales: {
@@ -958,9 +974,6 @@
         { label: 'Highlight',   value: 'Surpassed upsell targets for IoT & networking hardware' },
         { label: 'Skills',      value: 'Cold/warm calling · RFP/RFI responses · SaaS demos' },
         { label: 'Industries',  value: 'Fintech · Insurance · Telecom · GRC / Compliance' },
-        { label: 'Achievements',   value: 'Surpassed sales goals for telcom, and enabled engineers to close software deals'},
-        { label: 'Goals',   value: 'To provide an excellent, streamlined sales experience for our customers. ' },
-        { label: 'Future',   value: 'Leading and guiding teams, enabling and facilitating growth.' }
       ]
     },
     foss: {
@@ -970,46 +983,33 @@
         { label: 'Homelab',     value: 'TrueNAS Scale · Docker · WireGuard · IPFS · ZFS' },
         { label: 'Philosophy',  value: 'User freedom, open standards, decentralized tech' },
         { label: 'Projects',    value: 'Decentral Labs · Decentraphile · Metaverse Poker HQ' },
-        { label: 'Goals',    value: 'Continue to learn and teach users about the OpenSuSE distribution' },
-        { label: 'Future',    value: 'Provide developmental support for the OpenSuSE Linux Foundation' },
       ]
     }
   };
 
-  let currentRole = 'support';
-
   function setRole(role) {
-    if (role === currentRole) return;
-    currentRole = role;
+    const body  = document.getElementById('site-body');
+    const bio   = document.getElementById('role-bio');
+    const ctx   = document.getElementById('role-context');
+    const inner = document.getElementById('role-context-inner');
+    const pills = document.querySelectorAll('.role-pill');
 
-    const body    = document.getElementById('site-body');
-    const bio     = document.getElementById('role-bio');
-    const ctx     = document.getElementById('role-context');
-    const inner   = document.getElementById('role-context-inner');
-    const pills   = document.querySelectorAll('.role-pill');
-
-    /* swap body data-role → triggers CSS variable cascade */
     body.dataset.role = role;
-
-    /* update active pill */
     pills.forEach(p => p.classList.toggle('active', p.dataset.role === role));
 
-    /* fade bio */
     bio.style.opacity = '0';
     setTimeout(() => {
       bio.textContent = ROLES[role].bio;
       bio.style.opacity = '1';
     }, 150);
 
-    /* rebuild context cards */
     inner.innerHTML = ROLES[role].cards.map(c =>
-      `<div class="role-ctx-card">
-        <div class="ctx-label">${c.label}</div>
-        <div class="ctx-value">${c.value}</div>
-      </div>`
+      '<div class="role-ctx-card">' +
+        '<div class="ctx-label">' + c.label + '</div>' +
+        '<div class="ctx-value">'  + c.value + '</div>' +
+      '</div>'
     ).join('');
 
-    /* slide context panel open */
     ctx.classList.add('visible');
   }
 
@@ -1018,15 +1018,8 @@
     btn.addEventListener('click', () => setRole(btn.dataset.role));
   });
 
-  /* init on load */
-  document.getElementById('site-body').dataset.role = 'support';
+  /* init — run immediately, no early-return guard needed since it's gone */
   setRole('support');
-  /* trigger panel open after paint */
-  requestAnimationFrame(() =>
-    requestAnimationFrame(() =>
-      document.getElementById('role-context').classList.add('visible')
-    )
-  );
 </script>
 </body>
 </html>
